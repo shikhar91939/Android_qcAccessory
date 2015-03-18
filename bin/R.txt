@@ -249,11 +249,12 @@ int id action_context_bar 0x7f09001d
 int id action_menu_divider 0x7f090002
 int id action_menu_presenter 0x7f090003
 int id action_mode_close_button 0x7f090024
-int id action_settings 0x7f090043
+int id action_settings 0x7f090044
 int id activity_chooser_view_content 0x7f090025
 int id always 0x7f09000f
 int id ar2_next_btn 0x7f090042
 int id beginning 0x7f090016
+int id button_next 0x7f090043
 int id checkbox 0x7f09002d
 int id collapseActionView 0x7f090010
 int id default_activity_button 0x7f090028
@@ -329,7 +330,8 @@ int layout abc_search_dropdown_item_icons_2line 0x7f030015
 int layout abc_search_view 0x7f030016
 int layout abc_simple_decor 0x7f030017
 int layout activity_main 0x7f030018
-int layout support_simple_spinner_dropdown_item 0x7f030019
+int layout page1_qrscan 0x7f030019
+int layout support_simple_spinner_dropdown_item 0x7f03001a
 int menu main 0x7f0c0000
 int string abc_action_bar_home_description 0x7f0a0001
 int string abc_action_bar_up_description 0x7f0a0002
