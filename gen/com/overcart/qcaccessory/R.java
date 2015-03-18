@@ -1080,6 +1080,9 @@ containing a value of this type.
         public static final int ic_launcher=0x7f020057;
     }
     public static final class id {
+        public static final int EditText_Client_n_Location=0x7f09003c;
+        public static final int EditText_Name=0x7f09003e;
+        public static final int EditText_date=0x7f090041;
         public static final int action_bar=0x7f09001c;
         public static final int action_bar_activity_content=0x7f090001;
         public static final int action_bar_container=0x7f09001b;
@@ -1091,9 +1094,10 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f090002;
         public static final int action_menu_presenter=0x7f090003;
         public static final int action_mode_close_button=0x7f090024;
-        public static final int action_settings=0x7f09003c;
+        public static final int action_settings=0x7f090043;
         public static final int activity_chooser_view_content=0x7f090025;
         public static final int always=0x7f09000f;
+        public static final int ar2_next_btn=0x7f090042;
         public static final int beginning=0x7f090016;
         public static final int checkbox=0x7f09002d;
         public static final int collapseActionView=0x7f090010;
@@ -1138,6 +1142,9 @@ containing a value of this type.
         public static final int tabMode=0x7f090008;
         public static final int title=0x7f09002b;
         public static final int top_action_bar=0x7f090020;
+        public static final int tv_qcDate=0x7f090040;
+        public static final int tv_qcLocation=0x7f09003d;
+        public static final int tv_qcPersonPame=0x7f09003f;
         public static final int up=0x7f090021;
         public static final int useLogo=0x7f09000e;
         public static final int withText=0x7f090013;
