@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="fill_parent">
+    	<!-- Brrand -->
+    	<TextView 
+    		android:text="Brand"
+    		android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="25dp"/>
+    	<EditText 
+    	    android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:hint="Sony"
+			android:inputType="textPersonName"/>
+    	
+    	<!-- Model ID -->
+    	<TextView 
+    	   android:text="Mode ID"
+    	   android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="25dp"/>
+    	<EditText 
+    	    android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:hint="MDR-ZX110/BCIN On-the-ear Headphone"
+			android:inputType="text"/>
+    	
+    	<!-- Type -->
+    	<TextView 
+    	   android:text="Type"
+    	   android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="25dp"/>
+    	<EditText 
+    	    android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:hint="Headsets and Mics"
+			android:inputType="text"/>
+    	
+    	<!-- Color -->
+    	<TextView 
+    	   android:text="Color"
+    	   android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="25dp"/>
+    	<EditText 
+    	    android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:hint="Black"
+			android:inputType="text"/>
+    	
+    	<!-- Product Physical Condition -->
+    	<TextView 
+    	   android:text="Product Physical Condition"
+    	   android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="25dp"/>
+    	<EditText 
+    	    android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:hint="Bad = >3 scratches/damages"
+			android:inputType="text"/>
+    	
+    	<!-- Product Working Condition -->
+    	<TextView 
+    	   android:text="Product Working Condition"
+    	   android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="25dp"/>
+    	<EditText 
+    	    android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:hint="Not Working"
+			android:inputType="text"/>
+    	
+    	<!-- Outer Box Condition -->
+    	<TextView 
+    	   android:text="Outer Box Condition"
+    	   android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="25dp"/>
+    	<EditText 
+    	    android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:hint="Intact"
+			android:inputType="text"/>
+    	
+    	<!-- Missing Contents -->
+    	<TextView 
+    	   android:text="Missing Contents"
+    	   android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="25dp"/>
+    	<EditText 
+    	    android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:hint="Auxically Cable"
+			android:inputType="text"/>
+    	
+    	<!-- QC Status -->
+    	<TextView 
+    	   android:text="QC Status"
+    	   android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="25dp"/>
+    	<EditText 
+    	    android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:hint="BER"
+			android:inputType="text"/>
+    	
+    	<!-- QC Comment -->
+    	<TextView 
+    	   android:text="QC Comment"
+    	   android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="25dp"/>
+    	<EditText 
+    	    android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:hint="Speaker not working."
+			android:inputType="text"/>
+    <Button
+    android:id="@+id/ar2_next_btn"
+    android:layout_width="220dp"
+    android:layout_height="60dp"
+     android:layout_marginTop="35dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="12dp"
+    android:onClick="onClick_next"
+    android:text="NEXT"
+    android:textSize="20sp"
+    android:visibility="visible" /> 
+    	
+    	
+    </LinearLayout>
+</ScrollView>

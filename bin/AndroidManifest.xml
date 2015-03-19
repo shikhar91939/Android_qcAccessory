@@ -22,6 +22,7 @@
             </intent-filter>
         </activity>
         <activity android:name="Page1_QRscan"></activity>
+        <activity android:name="Page2_q"></activity>
     </application>
 
 </manifest>
