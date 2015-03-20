@@ -16,6 +16,7 @@
 			android:layout_height="wrap_content"
 			android:layout_marginTop="25dp"/>
     	<EditText 
+    	    android:id="@+id/et_brandName"
     	    android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
 			android:hint="Sony"
@@ -27,31 +28,34 @@
     	   android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_marginTop="25dp"/>
-    	<EditText 
+    	<EditText
+    	    android:id="@+id/et_modelId"
     	    android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
 			android:hint="MDR-ZX110/BCIN On-the-ear Headphone"
 			android:inputType="text"/>
     	
     	<!-- Type -->
-    	<TextView 
-    	   android:text="Type"
-    	   android:layout_width="wrap_content"
+    	<TextView
+    	   	android:text="Type"
+    	   	android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_marginTop="25dp"/>
     	<EditText 
+    	    android:id="@+id/et_type"
     	    android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
 			android:hint="Headsets and Mics"
 			android:inputType="text"/>
     	
-    	<!-- Color -->
+    	<!-- Colour -->
     	<TextView 
-    	   android:text="Color"
+    	   android:text="Colour"
     	   android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_marginTop="25dp"/>
     	<EditText 
+    	    android:id="@+id/rt_colour"
     	    android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
 			android:hint="Black"
@@ -64,6 +68,7 @@
 			android:layout_height="wrap_content"
 			android:layout_marginTop="25dp"/>
     	<EditText 
+    	    android:id="@+id/et_phyCond"
     	    android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
 			android:hint="Bad = >3 scratches/damages"
@@ -76,6 +81,7 @@
 			android:layout_height="wrap_content"
 			android:layout_marginTop="25dp"/>
     	<EditText 
+    	    android:id="@+id/et_WorkingCondition"
     	    android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
 			android:hint="Not Working"
@@ -88,6 +94,7 @@
 			android:layout_height="wrap_content"
 			android:layout_marginTop="25dp"/>
     	<EditText 
+    	    android:id="@+id/et_boxCondition"
     	    android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
 			android:hint="Intact"
@@ -100,6 +107,7 @@
 			android:layout_height="wrap_content"
 			android:layout_marginTop="25dp"/>
     	<EditText 
+    	    android:id="@+id/et_missingContents"
     	    android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
 			android:hint="Auxically Cable"
@@ -112,6 +120,7 @@
 			android:layout_height="wrap_content"
 			android:layout_marginTop="25dp"/>
     	<EditText 
+    	    android:id="@+id/et_qcStatus"
     	    android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
 			android:hint="BER"
@@ -124,6 +133,7 @@
 			android:layout_height="wrap_content"
 			android:layout_marginTop="25dp"/>
     	<EditText 
+    	    android:id="@+id/et_qcComment"
     	    android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
 			android:hint="Speaker not working."
